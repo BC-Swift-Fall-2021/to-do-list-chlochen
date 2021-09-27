@@ -63,7 +63,7 @@
             <objects>
                 <tableViewController id="lJE-a2-uSH" customClass="ToDoDetailTableViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="8QX-0X-mBp">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
@@ -140,7 +140,11 @@
                                 <action selector="cancelButtonPressed:" destination="lJE-a2-uSH" id="HUR-e2-KXr"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="QRl-eF-gqc"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="QRl-eF-gqc">
+                            <connections>
+                                <segue destination="n1c-ur-ZIM" kind="unwind" unwindAction="unwindFromDetailWithSegue:" id="ieR-WJ-OWI"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="datePicker" destination="b5r-Yq-B68" id="Or6-xh-8s5"/>
@@ -150,6 +154,7 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D0B-Fi-DYC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="n1c-ur-ZIM" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2791.875" y="87.676056338028175"/>
         </scene>
@@ -192,7 +197,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Qc2-SG-1xK"/>
+        <segue reference="Vgy-s2-0La"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
