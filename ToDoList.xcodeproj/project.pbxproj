@@ -17,6 +17,7 @@
 		61B5D368270235560037089E /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B5D367270235560037089E /* ToDoItem.swift */; };
 		61EE6B70270B866F00144A4D /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE6B6F270B866F00144A4D /* ListTableViewCell.swift */; };
 		61EE6B72270B8D9700144A4D /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE6B71270B8D9700144A4D /* ToDoItems.swift */; };
+		61EE6B74270B90B100144A4D /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE6B73270B90B100144A4D /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		61B5D367270235560037089E /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		61EE6B6F270B866F00144A4D /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		61EE6B71270B8D9700144A4D /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
+		61EE6B73270B90B100144A4D /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				611EAF9027012ADC00ADCCB9 /* AppDelegate.swift */,
 				611EAF9227012ADC00ADCCB9 /* SceneDelegate.swift */,
+				61EE6B73270B90B100144A4D /* LocalNotificationManager.swift */,
 				61B5D367270235560037089E /* ToDoItem.swift */,
 				61EE6B71270B8D9700144A4D /* ToDoItems.swift */,
 				611EAF9427012ADC00ADCCB9 /* ToDoListViewController.swift */,
@@ -155,6 +158,7 @@
 				61B5D368270235560037089E /* ToDoItem.swift in Sources */,
 				611F931D270154D4001714D7 /* ToDoDetailTableViewController.swift in Sources */,
 				611EAF9327012ADC00ADCCB9 /* SceneDelegate.swift in Sources */,
+				61EE6B74270B90B100144A4D /* LocalNotificationManager.swift in Sources */,
 				61EE6B70270B866F00144A4D /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
