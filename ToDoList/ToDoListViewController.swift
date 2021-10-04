@@ -40,7 +40,7 @@ class ToDoListViewController: UIViewController {
             }
         }
     }
-    
+     
     func setNotifications() {
         guard toDoItems.count > 0 else {
             return
